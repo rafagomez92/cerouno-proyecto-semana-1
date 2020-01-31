@@ -5,78 +5,103 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
       <div class="container">
-        <div class="jumbotron p-4 p-md-5 text-white rounded bg-danger">
-            <div class="col-md-6 px-0">
-              <h1 class="display-4 font-italic">La mejor guitarra electroacústica</h1>
-              <p class="lead my-3">No te pierdas las ofertas del modelo <span class="font-weight-bold">3CEQ</span> que tenemos para tí.</p>                                          
-              <button type="button" class="btn font-weight-bold text-white btn-warning">Suscribete</button>
-            </div>
-          </div>
-
-          <main>
-            <div class="row mb-2">
-                <div class="col-md-6">
-                  <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">                      
-                      <strong class="d-inline-block mb-2 text-danger">Nuevos modelos</strong>
-                      <h3 class="mb-0">Guitarra electroacústica</h3>                      
-                      <p class="card-text mb-auto">Descubre el nuevo modelo 3CEQ integrado con un excelente ecualizador.</p>
-                      <button type="button" class="btn font-weight-bold text-white btn-warning">Comprar</button>
-                    </div>
-                    <div class="col-auto d-none d-lg-block">                                            
-                      <img src="images/e2.jpg"  width="200" height="250" alt="">                      
-                    </div>                    
-                  </div>                  
+          <header>
+            <div class="card bg-dark text-white mb-3">
+                <img src="images/header.jpg" class="card-img" width="782" height="200" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title display-4">La sevillana <span class="font-weight-bold">UN3CEQ</span> </h5>                  
+                  <p class="card-text">No te pierdas de las ofertas que tenemos para ti.</p>
+                  <button type="button" class="btn font-weight-bold text-white rounded bg-warning">Suscríbete</button>
                 </div>
-                <div class="col-md-6">
-                  <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                      <strong class="d-inline-block mb-2 text-danger">Sonidos acústicos</strong>
-                      <h3 class="mb-0">Modelo 3CEQ</h3>                      
-                      <p class="mb-auto">Tendrás mejor sonido con el diseño de la nueva guitarra 3CEQ</p>
-                      <button type="button" class="btn font-weight-bold text-white btn-warning">Comprar</button>
+              </div>
+          </header>
+          <main>
+              <div class="features-contacto">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center text-danger">Características <span class="badge badge-warning text-white">New</span></h2>
+                        <div class="row justify-content-center">                            
+                            <div class="col-4">
+                                <img src="images/features.jpg" width="100" height="290" class="rounded mx-auto d-block" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-danger font-weight-bold d-flex align-items-center""><span class="badge badge-warning badge-pill">✓</span>&nbspGuitarra con caja clásica</li>
+                                    <li class="list-group-item text-danger font-weight-bold d-flex align-items-center""><span class="badge badge-warning badge-pill">✓</span>&nbspPreamp activo KLT-34</li>
+                                    <li class="list-group-item text-danger font-weight-bold d-flex align-items-center""><span class="badge badge-warning badge-pill">✓</span>&nbspEcualizadorde 4 bandas</li>
+                                    <li class="list-group-item text-danger font-weight-bold d-flex align-items-center""><span class="badge badge-warning badge-pill">✓</span>&nbspCuerdas D Addario de nylon</li>
+                                    <li class="list-group-item text-danger font-weight-bold d-flex align-items-center""><span class="badge badge-warning badge-pill">✓</span>&nbspPuente de sonokeling</li>
+                                    <li class="list-group-item text-danger font-weight-bold d-flex align-items-center""><span class="badge badge-warning badge-pill">✓</span>&nbspCanto delgado</li>
+                                </ul>                                
+                            </div>
+                          </div>
                     </div>
-                    <div class="col-auto d-none d-lg-block">                      
-                      <img src="images/shopping.png" width="200" height="250" alt="">
-                    </div>
+                    <div class="col">                        
+                        <div class="card w-100">
+                            <div class="card-body bg-danger">                                                                                          
+                              <h2 class="card-title text-center text-white">Contacto</h2>
+                              <form>
+                                <div class="form-group">
+                                  <label class="font-weight-bold text-white" for="name">Nombre</label>
+                                  <input type="text" class="form-control" id="name" placeholder="Escribe tu nombre">
+                                </div>            
+                                <div class="form-group">
+                                  <label class="font-weight-bold text-white" for="email">Correo electrónico</label>
+                                  <input type="email" class="form-control" id="email" placeholder="Escribe tu correo">
+                                </div>
+                                <div class="form-group">
+                                  <label class="font-weight-bold text-white" for="question">Mensaje</label>
+                                  <textarea class="form-control" id="message" rows="1" placeholder="Escribe tu mensaje"></textarea>
+                                </div>                    
+                                <button type="button" class="btn btn-warning text-center text-white font-weight-bold">Send</button>
+                              </form>
+                            </div>
+                          </div>
+                    </div>                    
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="Caracteristicas center-block">
-                <h1 class="text-center text-danger">Descubre sus características <span class="badge badge-secondary">New</span></h1>                
+                
+                
 
-            <div class="row justify-content-center">
-                <div class="col-4">
-                    <img src="images/e3.jpg" width="100" height="290" class="rounded mx-auto d-block" alt="...">
-                </div>
-                <div class="col-4">
-                    <ul class="list-group list-group-flush justify-content-center">                    
-                        <li class="list-group-item">Guitarra electro acústica con caja clásica</li>
-                        <li class="list-group-item">Preamp activo KLT-34 con afinador digital</li>
-                        <li class="list-group-item">Ecualizadorde 4 bandas</li>                
-                        <li class="list-group-item">Cuerdas D Addario de nylon</li>                
-                        <li class="list-group-item">Puente de sonokeling</li> 
-                        <li class="list-group-item">Canto delgado</li>                        
-                      </ul>
-                </div>
-              </div>
+                <hr class="mb-4">
 
-            
-            
+              <div class="buy">
+                <div class="row mb-2">
+                    <div class="col-md-6">
+                        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                          <div class="col p-4 d-flex flex-column position-static">                      
+                            <strong class="d-inline-block mb-2 text-danger">Modelo</strong>
+                            <h3 class="mb-3">Electroacústica</h3>                      
+                            <p class="card-text mb-auto">Con la guitarra UN-3CEQ tendrás en tus manos fineza extraordinaria y resonancia natural.</p>
+                            <button type="button" class="btn font-weight-bold text-white btn-warning">Comprar</button>
+                          </div>
+                          <div class="col-auto d-none d-lg-block">                                            
+                            <img src="images/electroacustica.jpg"  width="200" height="250" alt="">                      
+                          </div>                    
+                        </div>                  
+                      </div>
+                      <div class="col-md-6">
+                        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                          <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-danger">Modelo</strong>
+                            <h3 class="mb-3">Acústica</h3>                      
+                            <p class="mb-auto">Experiencia en la fabricación de guitarras clásicas, obtendrás un tono cálido y percutivo.</p>
+                            <button type="button" class="btn font-weight-bold text-white btn-warning">Comprar</button>
+                          </div>
+                          <div class="col-auto d-none d-lg-block">                      
+                            <img src="images/acoustic.jpg" width="200" height="250" alt="">
+                          </div>
+                        </div>
+                      </div>                        
+                      </div>               
+              </div>
           </main>
-
-
-
-      </div>
-
-
+          </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
